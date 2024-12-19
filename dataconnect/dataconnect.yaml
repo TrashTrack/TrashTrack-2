@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "TrashTrack"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "TrashTrack-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

@@ -1,28 +1,28 @@
 {
   "expo": {
     "name": "TrashTrack",
-    "slug": "TrashTrack",
+    "slug": "trashtrack",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./app/assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
+    "web": {
+      "favicon": "./app/assets/favicon.png"
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+    "extra": {
+      "eas": {
+        "projectId": "a8395d19-6c62-477e-92b0-dc28b3cf3264"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "owner": "tejasprasad",
+    "android": {
+      "package": "com.tejasprasad.trashtrack"
     }
   }
 }
